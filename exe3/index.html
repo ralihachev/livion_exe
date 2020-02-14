@@ -5,33 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title></title>
-    <style>
-        body{
-            background: #000;
-        }
-        #container {
-            left: 0px;
-            top: -100px;
-            height: calc(100vh + 100px);
-            overflow: hidden;
-            position: relative;
-        }
-
-        #animate{
-            margin: 0 auto;
-            width: 20px;
-            overflow: visible;
-            position: relative;
-        }
-
-        #all{
-            overflow: hidden;
-            height: 100vh;
-            width: 100%;
-            position: fixed;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -67,42 +41,7 @@
             </div>
         </div>
     </div>
-
-
-
-
 </div>
-
-<!--<div class="container">
-    <div class="row" style="margin-top: 50px">
-        <div class="col-lg-8 col-md-10 col-sm-12 offset-lg-2 offset-md-1 text-center">
-            <h5>Create your emoji by changing the color of the circles</h5>
-            <canvas id="canvas" width="500px" height="500px" style="border:1px solid #d3d3d3;"></canvas>
-        </div>
-        <div class="col-lg-6 col-md-8 col-sm-12 offset-lg-3 offset-md-2 text-center">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter the name for your emoji" id="name">
-            </div>
-
-        </div>
-        <div class="col-lg-8 col-md-10 col-sm-12 offset-lg-2 offset-md-1 text-center">
-            <button type="submit" class="btn btn-secondary" onclick="submit_emoji()">Submit emoji</button>
-        </div>
-    </div>
-
-
-
-
-    <div ng-app="index" ng-controller="IndexController" style="margin-top: 50px">
-        <div class="row">
-            <div class="col-lg-2 col-md-2 text-center" ng-repeat="emoji in response">
-                <canvas id="{{ 'canvas-' + $index }}" width="100px" height="100px" style=" border:1px solid #d3d3d3;"></canvas>
-                <p>{{emoji.name}}</p>
-            </div>
-        </div>
-    </div>
-
-</div>-->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
