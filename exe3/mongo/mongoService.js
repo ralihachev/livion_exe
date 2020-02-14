@@ -1,7 +1,7 @@
 const Q = require ('q');
-var mongo = require('mongoskin');
+const mongo = require('mongoskin');
 
-var db = mongo.db("mongodb://ralihachev:zxcvbnm123@ds163182.mlab.com:63182/emoji", {native_parser: true});
+let db = mongo.db("mongodb://ralihachev:zxcvbnm123@ds163182.mlab.com:63182/emoji", {native_parser: true});
 db.bind('emoji');
 
 let services = {};

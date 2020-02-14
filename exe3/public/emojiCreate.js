@@ -35,7 +35,7 @@ function create_circles(quantityX, quantityY, r, circle_array, canvas_element, x
         y: y
     };
 
-    for (var i = 0; i<quantityAll; i++){
+    for (let i = 0; i<quantityAll; i++){
         let fillColor = 'gray';
         let circle = new Circle(drawPosition.x, drawPosition.y, r, i, fillColor);
         circle_array.push(circle);
