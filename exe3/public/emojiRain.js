@@ -19,7 +19,7 @@ function addCircle(delay, range, color) {
     setTimeout(function() {
         let c = new CircleEmoji(range[0] + Math.random() * range[1], 80 + Math.random() * 4, color, {
             x: -0.15 + Math.random() * 0.3,
-            y: 1 + Math.random() * 1
+            y: 1 + Math.random()
         }, range);
         circles.push(c);
     }, delay);
